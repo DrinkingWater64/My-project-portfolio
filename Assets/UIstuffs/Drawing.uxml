@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UIstuffs/Buttons.uss?fileID=7433441132597879392&amp;guid=e7722d5c4dd946c4193064fcb23f2132&amp;type=3#Buttons" />
+    <Style src="project://database/Assets/UIstuffs/Card.uss?fileID=7433441132597879392&amp;guid=e2b74d3d655619744bcf47fcbb7af2de&amp;type=3#Card" />
+    <ui:VisualElement name="Card" style="align-items: flex-start;">
+        <ui:VisualElement class="card">
+            <ui:Label text="PILOT" display-tooltip-when-elided="true" enable-rich-text="true" class="card_title" />
+            <ui:Label text="Abdullah Al Muti" display-tooltip-when-elided="true" enable-rich-text="false" class="card_texts card_largeText" style="border-bottom-width: 1px; border-bottom-color: rgb(56, 53, 47);" />
+            <ui:Label display-tooltip-when-elided="true" text="Nickname:                AKSHAR&#10;&#10;Hometown:           RAJSHAHI&#10;Current address:      DHAKA&#10;" class="card_texts card_largeText" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

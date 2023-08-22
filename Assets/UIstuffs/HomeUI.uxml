@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UIstuffs/Buttons.uss?fileID=7433441132597879392&amp;guid=e7722d5c4dd946c4193064fcb23f2132&amp;type=3#Buttons" />
+    <Style src="project://database/Assets/UIstuffs/ProgressBar.uss?fileID=7433441132597879392&amp;guid=b63c62efc71723a40aa6534f6e53d8bb&amp;type=3#ProgressBar" />
+    <Style src="project://database/Assets/UIstuffs/Card.uss?fileID=7433441132597879392&amp;guid=e2b74d3d655619744bcf47fcbb7af2de&amp;type=3#Card" />
+    <ui:VisualElement style="height: 88px; align-items: center; flex-direction: row; justify-content: flex-start; width: auto; overflow: visible; white-space: normal; background-color: rgb(194, 189, 161);">
+        <ui:Label text="Abdullah Al Muti" display-tooltip-when-elided="true" style="height: 64px; width: 370px; font-size: 47px; -unity-text-align: upper-left; white-space: nowrap; color: rgb(56, 53, 47);" />
+        <ui:Button text="Home" display-tooltip-when-elided="true" name="Home" class="button" />
+        <ui:Button text="Projects" display-tooltip-when-elided="true" name="Projects" class="button" />
+        <ui:Button text="Resume" display-tooltip-when-elided="true" name="Resume" class="button buttonLink" style="width: 173px; -unity-text-align: middle-left;" />
+        <ui:Button text="Contact" display-tooltip-when-elided="true" name="Contact" class="button" />
+    </ui:VisualElement>
+    <ui:ProgressBar name="ProgressBar" class="bar" style="height: auto; width: 800px; left: 250px; top: 567px; background-color: rgba(0, 0, 0, 0); display: flex; position: relative;" />
+</ui:UXML>

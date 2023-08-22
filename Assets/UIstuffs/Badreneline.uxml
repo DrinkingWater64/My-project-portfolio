@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UIstuffs/Buttons.uss?fileID=7433441132597879392&amp;guid=e7722d5c4dd946c4193064fcb23f2132&amp;type=3#Buttons" />
+    <Style src="project://database/Assets/UIstuffs/Card.uss?fileID=7433441132597879392&amp;guid=e2b74d3d655619744bcf47fcbb7af2de&amp;type=3#Card" />
+    <ui:VisualElement name="Card" style="align-items: flex-start;">
+        <ui:VisualElement class="card">
+            <ui:Label text="BADRENELINE" display-tooltip-when-elided="true" enable-rich-text="true" class="card_title" />
+            <ui:Label text="A game using Unity" display-tooltip-when-elided="true" enable-rich-text="false" class="card_texts card_largeText" style="border-bottom-width: 1px; border-bottom-color: rgb(56, 53, 47);" />
+            <ui:Label display-tooltip-when-elided="true" text="Badrenaline is a 2D side scroller&#10;platformer game, created for a &#10;gamejam in 2021&#10;&#10;I worked on&#10;&gt; Creating sprites&#10;&gt; Character animations&#10;&gt; UI design and implement&#10;&gt; Adding sound to the game&#10;" class="card_texts card_largeText" />
+            <ui:Button text="Play" display-tooltip-when-elided="true" name="button" class="button buttonLink" style="font-size: 14px; width: auto; height: 50px; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; left: auto;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

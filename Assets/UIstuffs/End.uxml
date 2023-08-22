@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UIstuffs/Buttons.uss?fileID=7433441132597879392&amp;guid=e7722d5c4dd946c4193064fcb23f2132&amp;type=3#Buttons" />
+    <Style src="project://database/Assets/UIstuffs/Card.uss?fileID=7433441132597879392&amp;guid=e2b74d3d655619744bcf47fcbb7af2de&amp;type=3#Card" />
+    <ui:VisualElement name="Card" style="align-items: flex-start;">
+        <ui:VisualElement class="card">
+            <ui:Label text="AKSHAR:" display-tooltip-when-elided="true" enable-rich-text="true" class="card_title" />
+            <ui:Label display-tooltip-when-elided="true" text="A small adventure but there&apos;s room for &#10;plenty more.         &#10;" class="card_texts card_largeText" style="width: auto;" />
+            <ui:Button text="START AGAIN" display-tooltip-when-elided="true" name="button" class="button" style="font-size: 18px; -unity-font-style: bold; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; width: auto; left: 0;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UIstuffs/Buttons.uss?fileID=7433441132597879392&amp;guid=e7722d5c4dd946c4193064fcb23f2132&amp;type=3#Buttons" />
+    <Style src="project://database/Assets/UIstuffs/Card.uss?fileID=7433441132597879392&amp;guid=e2b74d3d655619744bcf47fcbb7af2de&amp;type=3#Card" />
+    <ui:GroupBox name="EDU" class="section" style="flex-direction: row-reverse; height: auto; width: 450px; top: 100px; left: 0;">
+        <ui:VisualElement style="background-color: rgba(172, 165, 138, 0); justify-content: flex-start;">
+            <ui:VisualElement class="card">
+                <ui:Label text="Software Engineering" display-tooltip-when-elided="true" enable-rich-text="true" class="card_title" />
+                <ui:Label text="ISLAMIC UNIVERSITY OF TECHNOLOGY" display-tooltip-when-elided="true" enable-rich-text="false" class="card_texts" style="border-bottom-width: 1px; border-bottom-color: rgb(56, 53, 47);" />
+                <ui:Label text="GAZIPUR, BANGLADESH" display-tooltip-when-elided="true" class="card_texts" style="-unity-text-align: upper-left; font-size: 9px;" />
+                <ui:Label text="Bachelor of Science (BSc)&#10;GRADUATION DATE: MAY 24 2024&#10;CURRENT SEMESTER: 6&lt;sup&gt;th&lt;/sup&gt;" display-tooltip-when-elided="true" class="card_texts" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:GroupBox>
+</ui:UXML>

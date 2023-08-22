@@ -1,0 +1,40 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UIstuffs/Buttons.uss?fileID=7433441132597879392&amp;guid=e7722d5c4dd946c4193064fcb23f2132&amp;type=3#Buttons" />
+    <Style src="project://database/Assets/UIstuffs/Card.uss?fileID=7433441132597879392&amp;guid=e2b74d3d655619744bcf47fcbb7af2de&amp;type=3#Card" />
+    <ui:GroupBox name="SKILLS" class="section" style="flex-direction: row;">
+        <ui:VisualElement style="background-color: rgba(172, 165, 138, 0); justify-content: flex-start;">
+            <ui:VisualElement class="card">
+                <ui:Label text="OFFICE" display-tooltip-when-elided="true" enable-rich-text="true" class="card_title" />
+                <ui:Label text="Microsoft office&#10;Google suite" display-tooltip-when-elided="true" enable-rich-text="false" class="card_texts" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement style="background-color: rgba(172, 165, 138, 0); justify-content: flex-start;">
+            <ui:VisualElement class="card">
+                <ui:Label text="GAME ENGINE" display-tooltip-when-elided="true" enable-rich-text="true" class="card_title" />
+                <ui:Label text="UNITY&#10;UNREAL&#10;GODOT" display-tooltip-when-elided="true" enable-rich-text="false" class="card_texts" />
+            </ui:VisualElement>
+            <ui:VisualElement class="card">
+                <ui:Label display-tooltip-when-elided="true" enable-rich-text="true" text="DESIGN" class="card_title" style="overflow: hidden;" />
+                <ui:Label text="PHOTOSHOP&#10;ILLUSTRATOR&#10;ASEPRITE&#10;PREMIRE PRO" display-tooltip-when-elided="true" enable-rich-text="false" class="card_texts" />
+            </ui:VisualElement>
+            <ui:VisualElement class="card">
+                <ui:Label display-tooltip-when-elided="true" enable-rich-text="true" text="3D tools" class="card_title" style="overflow: hidden;" />
+                <ui:Label text="BLENDER" display-tooltip-when-elided="true" enable-rich-text="false" class="card_texts" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement style="background-color: rgba(172, 165, 138, 0); justify-content: flex-start;">
+            <ui:VisualElement class="card">
+                <ui:Label text="CODING" display-tooltip-when-elided="true" enable-rich-text="true" class="card_title" />
+                <ui:Label text="C#&#10;C++&#10;JAVA&#10;JAVASCRIPT&#10;PYTHON&#10;SQL" display-tooltip-when-elided="true" enable-rich-text="false" class="card_texts" />
+            </ui:VisualElement>
+            <ui:VisualElement class="card">
+                <ui:Label display-tooltip-when-elided="true" enable-rich-text="true" text="PRACTICES" class="card_title" />
+                <ui:Label text="OOP&#10;DESIGN PATTERNS&#10;AGILE METHODOLGIES&#10;" display-tooltip-when-elided="true" enable-rich-text="false" class="card_texts" style="flex-wrap: nowrap; align-items: flex-start; justify-content: flex-start;" />
+            </ui:VisualElement>
+            <ui:VisualElement class="card">
+                <ui:Label display-tooltip-when-elided="true" enable-rich-text="true" text="SOURCE CONTROL" class="card_title" />
+                <ui:Label text="GIT" display-tooltip-when-elided="true" enable-rich-text="false" class="card_texts" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:GroupBox>
+</ui:UXML>

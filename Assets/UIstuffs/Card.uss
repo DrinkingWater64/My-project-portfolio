@@ -1,0 +1,37 @@
+.card_title {
+    -unity-background-image-tint-color: rgb(56, 53, 47);
+    background-color: rgb(56, 53, 47);
+    color: rgb(194, 189, 161);
+    font-size: 24px;
+    -unity-font-definition: url('project://database/Assets/Font/Epilogue/static/Epilogue-Light%20SDF%201.asset?fileID=11400000&guid=f2ec3a062ac5eeb4cb40ffe58a12a4d6&type=2#Epilogue-Light SDF 1');
+}
+
+.card {
+    background-color: rgb(172, 165, 138);
+    visibility: visible;
+    margin-left: 0;
+    margin-right: 12px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    align-items: stretch;
+    -unity-font-definition: url('project://database/Assets/Font/Epilogue/static/Epilogue-Light%20SDF%201.asset?fileID=11400000&guid=f2ec3a062ac5eeb4cb40ffe58a12a4d6&type=2#Epilogue-Light SDF 1');
+}
+
+.card_texts {
+    color: rgb(56, 53, 47);
+    margin-left: 4px;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    align-items: flex-start;
+    font-size: 14px;
+    padding-left: 0;
+    padding-right: 2px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    -unity-font-definition: url('project://database/Assets/Font/Epilogue/static/Epilogue-Light%20SDF%201.asset?fileID=11400000&guid=f2ec3a062ac5eeb4cb40ffe58a12a4d6&type=2#Epilogue-Light SDF 1');
+}
+
+.card_largeText {
+    font-size: 16px;
+}

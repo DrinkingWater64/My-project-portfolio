@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UIstuffs/Buttons.uss?fileID=7433441132597879392&amp;guid=e7722d5c4dd946c4193064fcb23f2132&amp;type=3#Buttons" />
+    <Style src="project://database/Assets/UIstuffs/Card.uss?fileID=7433441132597879392&amp;guid=e2b74d3d655619744bcf47fcbb7af2de&amp;type=3#Card" />
+    <ui:VisualElement name="Card" style="align-items: flex-start;">
+        <ui:VisualElement class="card">
+            <ui:Label text="INSPIRATION" display-tooltip-when-elided="true" enable-rich-text="true" class="card_title" />
+            <ui:Label display-tooltip-when-elided="true" text="Everything here was strongly influenced &#10;by Nier: Automata." class="card_texts card_largeText" style="width: auto;" />
+            <ui:VisualElement style="background-image: url(&apos;project://database/Assets/Images/Nierpot.png?fileID=2800000&amp;guid=9717780acde2c7a4fb9278043ce891d3&amp;type=3#Nierpot&apos;); width: 318px; height: 43px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
