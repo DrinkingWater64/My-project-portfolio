@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UIstuffs/Card.uss?fileID=7433441132597879392&amp;guid=e2b74d3d655619744bcf47fcbb7af2de&amp;type=3#Card" />
+    <Style src="project://database/Assets/UIstuffs/Buttons.uss?fileID=7433441132597879392&amp;guid=e7722d5c4dd946c4193064fcb23f2132&amp;type=3#Buttons" />
+    <ui:VisualElement name="Card" style="align-items: flex-start;">
+        <ui:VisualElement class="card">
+            <ui:Label text="Hard Being The Smartest" display-tooltip-when-elided="true" enable-rich-text="true" class="card_title" />
+            <ui:Label text="A game using Unity" display-tooltip-when-elided="true" enable-rich-text="false" class="card_texts card_largeText" style="border-bottom-width: 1px; border-bottom-color: rgb(56, 53, 47);" />
+            <ui:Label display-tooltip-when-elided="true" text="HBTS is a puzzle-based game.&#10;Where you will have to control &#10;players parallely in different &#10;environents. Had to make this in&#10;a short time.&#10;&#10;I worked on&#10;&gt; The whole thing&#10;&gt;Spliting viewport&#10;&gt;Implementing music&#10;&gt;Working UI" class="card_texts card_largeText" />
+            <ui:Button text="WATCH DEMO" display-tooltip-when-elided="true" name="button" class="button buttonLink" style="font-size: 18px; -unity-font-style: bold; width: auto; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; left: 0;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

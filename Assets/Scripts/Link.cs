@@ -76,6 +76,14 @@ public class Link : MonoBehaviour
 //#endif
     }
 
+    public void GoHBTSB()
+    {
+        Application.OpenURL("https://feelsoclean.itch.io/hard-being-the-smartest-being-alive");
+        //#if !UNITY_EDITOR
+        //		openWindow("https://feelsoclean.itch.io/hard-being-the-smartest-being-alive");
+        //#endif
+    }
+
     public void Test()
     {
         Debug.Log("Tesla");

@@ -81,4 +81,9 @@ public class RocketControl : MonoBehaviour
         //_rb.MovePosition(Vector3.MoveTowards(transform.position, target.position, _speed));
         transform.position = target.position;
     }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        Debug.LogWarning(collision.gameObject.name);
+    }
 }
