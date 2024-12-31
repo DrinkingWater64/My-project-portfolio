@@ -4,12 +4,22 @@
     <ui:GroupBox name="EXP" class="section" style="flex-direction: row-reverse; height: auto; width: 450px; top: 100px; left: 0;">
         <ui:VisualElement style="background-color: rgba(172, 165, 138, 0); justify-content: flex-start;">
             <ui:VisualElement class="card">
+                <ui:Label text="ASSOCIATE SOFTWARE ENGINEER" display-tooltip-when-elided="true" enable-rich-text="true" class="card_title" />
+                <ui:Label text="STREAMS TECH LTD." display-tooltip-when-elided="true" enable-rich-text="false" class="card_texts" style="border-bottom-width: 1px; border-bottom-color: rgb(56, 53, 47);" />
+                <ui:Label text="AUGUST 2023 ---------------------- PRESENT" display-tooltip-when-elided="true" class="card_texts" style="-unity-text-align: upper-left;" />
+            </ui:VisualElement>
+            <ui:VisualElement class="card">
+                <ui:Label text="INTERN" display-tooltip-when-elided="true" enable-rich-text="true" class="card_title" />
+                <ui:Label text="STREAMS TECH LTD." display-tooltip-when-elided="true" enable-rich-text="false" class="card_texts" style="border-bottom-width: 1px; border-bottom-color: rgb(56, 53, 47);" />
+                <ui:Label text="JUNE 2023 ----------------- SEPTEMBER 2023" display-tooltip-when-elided="true" class="card_texts" style="-unity-text-align: upper-left;" />
+            </ui:VisualElement>
+            <ui:VisualElement class="card">
                 <ui:Label text="GAME DESIGNER" display-tooltip-when-elided="true" enable-rich-text="true" class="card_title" />
                 <ui:Label text="BATTERY LOW INTERACTIVE" display-tooltip-when-elided="true" enable-rich-text="false" class="card_texts" style="border-bottom-width: 1px; border-bottom-color: rgb(56, 53, 47);" />
                 <ui:Label text="JULY 2021 ----------------- NOVEMBER 2021" display-tooltip-when-elided="true" class="card_texts" style="-unity-text-align: upper-left;" />
             </ui:VisualElement>
             <ui:VisualElement class="card">
-                <ui:Label display-tooltip-when-elided="true" enable-rich-text="true" text="GAME DESIGNER INTERNSHIP" class="card_title" />
+                <ui:Label display-tooltip-when-elided="true" enable-rich-text="true" text="GAME DESIGNER INTERN" class="card_title" />
                 <ui:Label text="BATTERY LOW INTERACTIVE" display-tooltip-when-elided="true" enable-rich-text="false" class="card_texts" style="border-bottom-width: 1px; border-bottom-color: rgb(56, 53, 47);" />
                 <ui:Label text="JANUARY 2021--------------------JUNE 2021" display-tooltip-when-elided="true" class="card_texts" style="-unity-text-align: upper-left;" />
             </ui:VisualElement>

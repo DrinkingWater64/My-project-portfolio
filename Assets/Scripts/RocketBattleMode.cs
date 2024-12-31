@@ -30,12 +30,12 @@ public class RocketBattleMode : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.W))
         {
-            _rb.velocity = transform.up * _speed;
+            _rb.linearVelocity = transform.up * _speed;
             _isScrollingUp = true;
         }
         else if (Input.GetKey(KeyCode.S))
         {
-            _rb.velocity = transform.up * _speed * -1;
+            _rb.linearVelocity = transform.up * _speed * -1;
 
             _isScrollingUp = true;
         }
@@ -71,7 +71,7 @@ public class RocketBattleMode : MonoBehaviour
         }
         else
         {
-            _rb.velocity = Vector3.Lerp(_rb.velocity, Vector3.zero, .1f);
+            _rb.linearVelocity = Vector3.Lerp(_rb.linearVelocity, Vector3.zero, .1f);
         }
     }
 

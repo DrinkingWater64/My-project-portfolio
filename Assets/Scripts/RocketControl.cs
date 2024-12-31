@@ -26,13 +26,13 @@ public class RocketControl : MonoBehaviour
         if (Input.GetKey(KeyCode.W) || verticalinptut > 0)
         {
             //_rb.velocity = Vector3.up * _speed;
-            _rb.velocity = transform.up * _speed;
+            _rb.linearVelocity = transform.up * _speed;
             //_rb.AddForce(transform.up * _speed );
             _isScrollingUp = true;
         }
         else if(Input.GetKey(KeyCode.S) || verticalinptut < 0)
         {
-            _rb.velocity = Vector3.up * _speed * -1;
+            _rb.linearVelocity = Vector3.up * _speed * -1;
 
             _isScrollingUp = true;
         }
@@ -43,13 +43,13 @@ public class RocketControl : MonoBehaviour
             Debug.Log("scroll: "+scroll);
             if (scroll>0)
             {
-                _rb.velocity = Vector3.up * _speed * -1;
+                _rb.linearVelocity = Vector3.up * _speed * -1;
             }else if (scroll < 0)
             {
-                _rb.velocity = Vector3.up * _speed * 1;
+                _rb.linearVelocity = Vector3.up * _speed * 1;
 
             }
-            Debug.Log("velocity" + _rb.velocity);
+            Debug.Log("velocity" + _rb.linearVelocity);
             _isScrollingUp = true;
         }
         else
@@ -68,7 +68,7 @@ public class RocketControl : MonoBehaviour
         }
         else
         {
-            _rb.velocity = Vector3.Lerp(_rb.velocity, Vector3.zero, .1f);
+            _rb.linearVelocity = Vector3.Lerp(_rb.linearVelocity, Vector3.zero, .1f);
         }
         if (Input.GetKey(KeyCode.F))
         {

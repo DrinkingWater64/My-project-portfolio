@@ -11,7 +11,7 @@ public class Bullet : MonoBehaviour
     void Start()
     {
         _rb = gameObject.GetComponent<Rigidbody>();
-        _rb.velocity = transform.up * speed;
+        _rb.linearVelocity = transform.up * speed;
         Object.Destroy(gameObject, 2.0f);
     }
 
